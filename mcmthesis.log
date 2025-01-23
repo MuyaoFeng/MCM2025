@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  7 JAN 2025 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  7 JAN 2025 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -758,7 +758,14 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 60.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) (./mcmthesis.aux)
+) (./mcmthesis.aux
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+)
 \openout1 = `mcmthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -829,12 +836,13 @@ LaTeX Font Info:    ... okay on input line 60.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 60.
+(./mcmthesis.out) (./mcmthesis.out)
 \@outlinefile=\write5
 \openout5 = `mcmthesis.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -843,24 +851,36 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `mcmthesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'mcmthesis.bbl' not found.
-
-No file mcmthesis.bbl.
+Package biblatex Info: ... file 'mcmthesis.bbl' found.
+ (./mcmthesis.bbl)
 Package biblatex Info: Reference section=0 on input line 60.
 Package biblatex Info: Reference segment=0 on input line 60.
-[1
+ [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 69.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+) (./mcmthesis.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-No file mcmthesis.toc.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 2.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+))
 \tf@toc=\write6
 \openout6 = `mcmthesis.toc'.
 
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 73.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -874,34 +894,16 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 79
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 87.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 87.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
 Package epstopdf Info: Source file: <./figures/example.eps>
 (epstopdf)                    date: 2025-01-07 09:25:44
 (epstopdf)                    size: 458067 bytes
 (epstopdf)             Output file: <./figures/example-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-01-07 17:37:40
+(epstopdf)                    size: 78296 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/example-eps-converted-to.pdf ./figures/example.eps>
 (epstopdf)             \includegraphics on input line 105.
-runsystem(repstopdf --outfile=./figures/example-eps-converted-to.pdf ./figures/example.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./figures/example-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-01-07 17:37:40
-(epstopdf)                    size: 78296 bytes.
-<./figures/example-eps-converted-to.pdf, id=17, 421.575pt x 317.185pt>
+Package epstopdf Info: Output file is already uptodate.
+<./figures/example-eps-converted-to.pdf, id=89, 421.575pt x 317.185pt>
 File: ./figures/example-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/example-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/example-eps-converted-to.pdf  used on input line 105.
@@ -909,12 +911,6 @@ Package pdftex.def Info: ./figures/example-eps-converted-to.pdf  used on input l
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:example' on page 2 undefined on input line 109.
-
-
-LaTeX Warning: Citation 'vaswani2017attention' on page 2 undefined on input line 111.
 
 Package epstopdf Info: Source file: <./figures/example.eps>
 (epstopdf)                    date: 2025-01-07 09:25:44
@@ -951,17 +947,26 @@ Underfull \hbox (badness 10000) in alignment at lines 144--152
  []
 
 
-LaTeX Warning: Empty bibliography on input line 172.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2] [3 <./figures/example-eps-converted-to.pdf>] [4]
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3 <./figures/example-eps-converted-to.pdf>] [4]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 186.
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 186.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) (./code/matlab.m) (./code/python.py)
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 194.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -980,44 +985,27 @@ L3 programming layer <2024-02-20>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `mcmthesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mcmthesis.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  22E798E6A1483EE642FD2D0C540CB4E2;1975.
-
-Package lastpage Warning: Rerun to get the references right on input line 194.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                mcmthesis
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `mcmthesis.out' has not changed.
+(rerunfilecheck)             Checksum: 7D4FF981D5066E3D9BBC923107D0BF38;1975.
 Package logreq Info: Writing requests to 'mcmthesis.run.xml'.
 \openout1 = `mcmthesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23315 strings out of 474116
- 391890 string characters out of 5743682
- 1934187 words of memory out of 5000000
- 45242 multiletter control sequences out of 15000+600000
- 596913 words of font info for 109 fonts, out of 8000000 for 9000
+ 23368 strings out of 474116
+ 392969 string characters out of 5743682
+ 1936187 words of memory out of 5000000
+ 45286 multiletter control sequences out of 15000+600000
+ 595464 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,12n,99p,1206b,1948s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on mcmthesis.pdf (6 pages, 184638 bytes).
+Output written on mcmthesis.pdf (6 pages, 191200 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 31 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,6 +9,6 @@
 \contentsline {section}{\numberline {8}Evaluate of the Mode}{4}{section.8}%
 \contentsline {section}{\numberline {9}Strengths and weaknesses}{4}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Strengths}{4}{subsection.9.1}%
-\contentsline {section}{Appendices}{4}{section*.1}%
+\contentsline {section}{Appendices}{4}{section*.2}%
 \contentsline {section}{Appendix \numberline {A}First appendix}{5}{appendix.a.A}%
 \contentsline {section}{Appendix \numberline {B}Second appendix}{5}{appendix.a.B}%
